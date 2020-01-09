@@ -26,7 +26,7 @@ public class testingtest {
 
 	@Test
 	@Parameters({ "username", "password" })
-	public void verifylogin(String username, String password) {
+	public void verifylogin123456(String username, String password) {
 		driver.findElement(By.id("txtusername")).sendKeys(username);
 		driver.findElement(By.id("txtpassword")).sendKeys(password);
 		driver.findElement(By.id("btnlogin")).click();
